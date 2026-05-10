@@ -9,10 +9,10 @@ class Controller {
     }
 
     public function view($view, $data = []) {
-        if (file_exists("../app/views/" . $view . ".php")) {
-            require_once "../app/views/" . $view . ".php";
+        if (file_exists(__DIR__ . "/../Views/" . $view . ".php")) {
+            require_once __DIR__ . "/../Views/" . $view . ".php";
         } else {
-            die("View does not exist");
+            die("View does not exist: " . __DIR__ . "/../Views/" . $view . ".php");
         }
     }
 

@@ -1,0 +1,29 @@
+[Sun May 10 08:52:39 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Sun May 10 08:54:02 2026] [::1]:41762 Accepted
+[Sun May 10 08:54:02 2026] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /app/Public/index.php on line 3
+[Sun May 10 08:54:02 2026] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/usr/share/php') in /app/Public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /app/Public/index.php on line 3
+[Sun May 10 08:54:02 2026] [::1]:41762 [500]: GET / - Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/usr/share/php') in /app/Public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /app/Public/index.php on line 3
+[Sun May 10 08:54:02 2026] [::1]:41762 Closing
+[Sun May 10 08:54:59 2026] [::1]:34954 Accepted
+[Sun May 10 08:54:59 2026] PHP Warning:  require_once(../config/config.php): Failed to open stream: No such file or directory in /app/Public/index.php on line 3
+[Sun May 10 08:54:59 2026] PHP Fatal error:  Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/usr/share/php') in /app/Public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /app/Public/index.php on line 3
+[Sun May 10 08:54:59 2026] [::1]:34954 [500]: HEAD / - Uncaught Error: Failed opening required '../config/config.php' (include_path='.:/usr/share/php') in /app/Public/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /app/Public/index.php on line 3
+[Sun May 10 08:54:59 2026] [::1]:34954 Closing
+[Sun May 10 08:55:50 2026] [::1]:60942 Accepted
+[Sun May 10 08:55:50 2026] [::1]:60942 [200]: GET /
+[Sun May 10 08:55:50 2026] [::1]:60942 Closing
+[Sun May 10 08:55:55 2026] [::1]:60958 Accepted
+[Sun May 10 08:55:55 2026] [::1]:60958 [200]: GET /auth/login
+[Sun May 10 08:55:55 2026] [::1]:60958 Closing
